@@ -1,7 +1,7 @@
 import Button, { ButtonType } from '../../components/button/Button';
-import * as styled from './Home.style';
+import * as styled from './Page1.style';
 
-export default function Home() {
+export default function Page1() {
   type ButtonProps = {
     text: string;
     type: ButtonType;
@@ -17,9 +17,9 @@ export default function Home() {
   };
 
   return (
-    <styled.HomeWrapper>
+    <styled.Page1Wrapper>
       <h1>Home</h1>
       <Button {...buttonProps} />
-    </styled.HomeWrapper>
+    </styled.Page1Wrapper>
   );
 }
