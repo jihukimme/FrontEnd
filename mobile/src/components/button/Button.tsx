@@ -23,7 +23,8 @@ export default function Button({ text, type, link, onClick }: ButtonProps) {
   };
 
   return (
-    <styled.ButtonWrapper buttonType={type} onClick={handleClick}>
+    // $buttonType 형식으로 props를 전달하면, styled-components는 해당 props를 DOM에 전달하지 않고 스타일에만 사용 가능
+    <styled.ButtonWrapper $buttonType={type} onClick={handleClick}>
       {text}
     </styled.ButtonWrapper>
   );
