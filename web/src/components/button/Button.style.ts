@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 type ButtonWrapperProps = {
-  buttonType: 'common' | 'start' | 'click';
+  $buttonType: 'common' | 'start' | 'click';
 };
 
 export const ButtonWrapper = styled.button<ButtonWrapperProps>`
@@ -11,8 +11,8 @@ export const ButtonWrapper = styled.button<ButtonWrapperProps>`
   color: #fff;
   cursor: pointer;
 
-  ${({ buttonType }) => {
-    switch (buttonType) {
+  ${({ $buttonType }) => {
+    switch ($buttonType) {
       case 'common':
         return `
             padding: 30px 50px;

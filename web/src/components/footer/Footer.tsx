@@ -14,9 +14,7 @@ const Footer: React.FC = () => {
       <FooterContainer>
         <FooterSection>
           <h4>회사명</h4>
-          <p>
-            회사 설명을 여기에 입력합니다. 예를 들어, "우리는 고객에게 최고의 서비스를 제공합니다."
-          </p>
+          <p>회사 설명을 여기에 입력합니다. "우리는 고객에게 최고의 서비스를 제공합니다."</p>
         </FooterSection>
         <FooterSection>
           <h4>서비스</h4>

@@ -5,7 +5,7 @@ export const LayoutWrapper = styled.div`
 `;
 
 export const ContentWrapper = styled.main`
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 8vh);
   overflow-y: auto;
   padding: 0 20px;
 `;

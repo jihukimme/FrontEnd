@@ -24,6 +24,6 @@ export const ToggleWrapper = styled('button')<ToggleProps>`
     filter: brightness(${({ $themeMode }) => ($themeMode === 'Light' ? '0.9' : '1.13')});
   }
 `;
-export const ModeContent = styled.text`
+export const ModeContent = styled.span`
   color: ${({ theme }) => theme.buttontext};
 `;
