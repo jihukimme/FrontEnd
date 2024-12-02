@@ -1,6 +1,6 @@
 import * as styled from './Page2.style';
 
-export default function Page1() {
+export default function Page2() {
   return (
     <styled.Page2Wrapper>
       <h1>Page2</h1>

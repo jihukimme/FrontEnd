@@ -1,23 +1,35 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const HeaderWrapper = styled.header`
+export const HeaderWrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.primary};
-
+  color: ${({ theme }) => theme.colors.text};
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
   min-height: 8vh;
-  z-index: 100;
 `;
 
-export const HeaderLink = styled(Link)`
-  color: ${({ theme }) => theme.colors.text};
-
-  text-decoration: none;
-  font-size: 30px;
+export const HeaderLink = styled(NavLink)`
+  font-size: 1.5rem;
   font-weight: bold;
+  color: ${({ theme }) => theme.colors.text};
+  text-decoration: none;
+`;
 
-  &:focus,
+export const NavMenu = styled.div`
+  display: flex;
+  gap: 20px;
+`;
+
+export const NavLinkStyled = styled(NavLink)`
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.text};
+  padding: 10px;
+  transition: background-color 0.2s ease;
+
   &:hover {
-    color: black;
+    background-color: ${({ theme }) => theme.colors.secondary};
   }
 `;
