@@ -18,7 +18,7 @@ export const ToggleWrapper = styled('button')<ToggleProps>`
   align-items: center;
   background: ${({ theme }) => theme.buttonarea};
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-  z-index: 2;
+  z-index: 1000;
   border: none;
   &:hover {
     filter: brightness(${({ $themeMode }) => ($themeMode === 'Light' ? '0.9' : '1.13')});

@@ -8,9 +8,7 @@ export default function useKakaoLoader() {
      *
      * @참고 https://apis.map.kakao.com/web/guide/
      */
-    // appkey: '6ec8020798deac7ef2f8897ad1c5ccf1',
-    // appkey: import.meta.env.VITE_KAKAOMAP_JAVASCRIPT_APP_KEY,
-    appkey: 'af4fd846070dbe1db2809803a7721b31',
+    appkey: import.meta.env.VITE_KAKAOMAP_JAVASCRIPT_APP_KEY,
     libraries: ['clusterer', 'drawing', 'services'],
   });
 }
