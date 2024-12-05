@@ -18,7 +18,7 @@ export default function Header() {
       </styled.MenuIcon>
 
       {/* 메뉴 (768px 이상에서는 항상 표시, 768px 미만에서는 아이콘 클릭 시 표시) */}
-      <styled.NavMenu isMenuOpen={isMenuOpen}>
+      <styled.NavMenu $isMenuOpen={isMenuOpen}>
         <styled.NavLinkStyled to="/page1" onClick={toggleMenu}>
           Page 1
         </styled.NavLinkStyled>

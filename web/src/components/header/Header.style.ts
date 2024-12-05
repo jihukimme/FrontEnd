@@ -34,13 +34,13 @@ export const MenuIcon = styled.div`
 `;
 
 // 메뉴 래퍼
-export const NavMenu = styled.div<{ isMenuOpen: boolean }>`
+export const NavMenu = styled.div<{ $isMenuOpen: boolean }>`
   display: flex;
   gap: 20px;
 
   /* 768px 미만에서는 메뉴 숨기기 */
   @media (max-width: 768px) {
-    display: ${({ isMenuOpen }) => (isMenuOpen ? 'flex' : 'none')};
+    display: ${({ $isMenuOpen }) => ($isMenuOpen ? 'flex' : 'none')};
     position: absolute;
     top: 8vh; /* 헤더 아래에 메뉴 표시 */
     right: 0;
