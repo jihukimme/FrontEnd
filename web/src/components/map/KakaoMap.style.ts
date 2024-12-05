@@ -6,5 +6,5 @@ export const KakaoMapWrapper = styled.div`
   height: calc(100vh - 8vh);
 
   position: relative;
-  z-index: 100;
+  z-index: -1;
 `;
