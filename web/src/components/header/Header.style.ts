@@ -11,7 +11,7 @@ export const HeaderWrapper = styled.div`
   padding: 10px 20px;
   min-height: 8vh;
   position: relative;
-  z-index: 10;
+  z-index: 2000;
 `;
 
 // 헤더 링크 (로고)

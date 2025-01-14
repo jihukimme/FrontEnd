@@ -15,3 +15,24 @@ export default function Page1() {
     </styled.Page1Wrapper>
   );
 }
+
+// import * as styled from './Page1.style';
+// // import Card from '../../components/card/Card';
+
+// export default function Page1() {
+
+//   return (
+//     <styled.Page1Wrapper>
+
+// {/* <Card
+// image_url={data.place_name}
+//             title={data.place_name}
+//             sub_title={data.road_address_name}
+//             description={data.phone}
+//             link={data.place_url}
+//             onClick={() => setdata(null)}
+//           /> */}
+
+//     </styled.Page1Wrapper>
+//   );
+// }
